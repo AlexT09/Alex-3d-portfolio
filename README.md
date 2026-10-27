@@ -1,37 +1,24 @@
-# EDA · Aptitud solar fotovoltaica
+# Jack — 3D Creator
 
-Análisis exploratorio de datos del proyecto **Clasificación de la aptitud solar fotovoltaica a partir de variables geoespaciales y climáticas** (Programa de Ciencia de Datos, Universidad del Norte).
+Landing page de portafolio para un creador 3D, construida con React, TypeScript, Tailwind CSS, Framer Motion y Lucide React.
 
-## Estructura
+## Secciones
+1. **Hero** — navbar, titular gigante con texto en degradado, retrato con efecto magnético que sigue al mouse.
+2. **Marquee** — dos filas de GIFs que se desplazan en sentidos opuestos según el scroll.
+3. **About** — iconos 3D decorativos y párrafo que se revela carácter por carácter al hacer scroll.
+4. **Services** — lista numerada de 5 servicios sobre fondo blanco.
+5. **Projects** — 3 tarjetas sticky que se apilan y escalan al hacer scroll.
 
-```
-docs/
-├── _config.yml, _toc.yml       # configuración del Jupyter Book
-├── intro.md                    # presentación del problema
-├── 01_carga_estructura.ipynb   # dimensiones y tipos variables
-├── 02_calidad_datos.ipynb      # nulos, duplicados y outliers
-├── 04_univariado.ipynb         # variable objetivo y distribuciones de las 10 predictoras
-├── 05_geografico.ipynb         # mapa y composición por país
-├── 06_bivariado.ipynb          # predictoras frente a la clase y correlación entre ellas
-├── 07_conclusiones.md          # hallazgos para preprocesamiento
-├── utils.py                    # funciones compartidas
-└── data/Dataset_Mundial_Final.csv
-```
-
-## Actualizar el repo y el libro
-
-Después de editar y guardar los archivos, desde la raíz del repo:
-
+## Desarrollo
 ```bash
-# 1. Subir los cambios a main
-git add .
-git commit -m "Describe el cambio"
-git push origin main
-
-# 2. Reconstruir el libro desde cero (ejecuta todos los notebooks)
-jupyter-book clean docs --all
-jupyter-book build docs
-
-# 3. Publicar en GitHub Pages (rama gh-pages)
-ghp-import -n -p -f docs/_build/html
+npm install
+npm run dev      # servidor local
+npm run build    # build de producción en /dist
+npm run preview  # previsualizar el build
 ```
+
+## Stack
+- React 18 + TypeScript + Vite
+- Tailwind CSS 3
+- Framer Motion 12
+- Fuente: Kanit (Google Fonts, 300–900)
