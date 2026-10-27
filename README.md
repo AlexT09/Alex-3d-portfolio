@@ -1,24 +1,26 @@
-# Jack — 3D Creator
+# Alex — Data Analyst · Portafolio
 
-Landing page de portafolio para un creador 3D, construida con React, TypeScript, Tailwind CSS, Framer Motion y Lucide React.
+Portafolio personal: análisis de datos con Python, R y SQL, dashboards y business analytics con impacto real para el negocio.
 
-## Secciones
-1. **Hero** — navbar, titular gigante con texto en degradado, retrato con efecto magnético que sigue al mouse.
-2. **Marquee** — dos filas de GIFs que se desplazan en sentidos opuestos según el scroll.
-3. **About** — iconos 3D decorativos y párrafo que se revela carácter por carácter al hacer scroll.
-4. **Services** — lista numerada de 5 servicios sobre fondo blanco.
-5. **Projects** — 3 tarjetas sticky que se apilan y escalan al hacer scroll.
+**Sitio:** https://alext09.github.io/alex-3d-portfolio/
+
+## Proyectos destacados
+- [Heart Disease MLOps](https://github.com/AlexT09/heart-disease-mlops): clasificación, FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.
+- [Proyección de ventas Superstore](https://github.com/AlexT09/proyecto_superstorep2): forecasting por categoría y región con app en Dash.
+
+Las gráficas de las tarjetas (`public/projects/`) se generaron con los datos y resultados de cada repositorio.
+
+## Personalizar
+- Contacto (email, LinkedIn, GitHub): `src/config.ts`
+- Retrato del hero: constante `PORTRAIT` en `src/sections/HeroSection.tsx`
+- Proyectos: arreglo `PROJECTS` en `src/sections/ProjectsSection.tsx`
 
 ## Desarrollo
 ```bash
 npm install
-npm run dev      # servidor local
-npm run build    # build de producción en /dist
-npm run preview  # previsualizar el build
+npm run dev
+npm run build
 ```
+Cada push a `main` se publica en GitHub Pages con `.github/workflows/deploy.yml`.
 
-## Stack
-- React 18 + TypeScript + Vite
-- Tailwind CSS 3
-- Framer Motion 12
-- Fuente: Kanit (Google Fonts, 300–900)
+Stack: React 18, TypeScript, Vite, Tailwind CSS, Framer Motion, Lucide React.

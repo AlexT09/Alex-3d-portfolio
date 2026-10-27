@@ -2,36 +2,36 @@ import FadeIn from '../components/FadeIn';
 
 const SERVICES = [
   {
-    name: '3D Modeling',
+    name: 'Análisis con Python',
     description:
-      'Creation of detailed objects, characters, or environments tailored to specific client needs, ideal for games, products, and visualizations.',
+      'Limpieza, transformación y análisis exploratorio con pandas y NumPy, y modelos predictivos con scikit-learn, desde el dato crudo hasta resultados reproducibles.',
   },
   {
-    name: 'Rendering',
+    name: 'Estadística con R',
     description:
-      'High-quality, photorealistic renders that showcase designs with custom lighting, textures, and materials to bring concepts to life.',
+      'Análisis estadístico, pruebas de hipótesis y reportes reproducibles en R para entender qué factores explican realmente los resultados.',
   },
   {
-    name: 'Motion Design',
+    name: 'SQL y modelado de datos',
     description:
-      'Dynamic animations and motion graphics that add energy and storytelling to brands, products, and digital experiences.',
+      'Consultas, limpieza y estructuración de datos en SQL para construir tablas confiables que alimenten reportes y modelos.',
   },
   {
-    name: 'Branding',
+    name: 'Dashboards y visualización',
     description:
-      'Crafting cohesive visual identities -- from logos to full brand systems -- that communicate a clear and memorable presence.',
+      'Dashboards interactivos y visualizaciones claras en Power BI, Excel, Dash y Python que muestran de un vistazo lo que importa.',
   },
   {
-    name: 'Web Design',
+    name: 'Business Analytics',
     description:
-      'Designing clean, modern, and conversion-focused websites with attention to layout, typography, and user experience.',
+      'Traduzco el análisis en recomendaciones accionables: proyecciones, KPIs y hallazgos con impacto medible en ventas, costos y decisiones.',
   },
 ];
 
 export default function ServicesSection() {
   return (
     <section
-      id="price"
+      id="services"
       className="rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 py-20 sm:py-24 md:py-32"
       style={{ background: '#FFFFFF' }}
     >
@@ -40,7 +40,7 @@ export default function ServicesSection() {
           className="font-black uppercase text-center leading-none tracking-tight mb-16 sm:mb-20 md:mb-28"
           style={{ color: '#0C0C0C', fontSize: 'clamp(3rem, 12vw, 160px)' }}
         >
-          Services
+          Servicios
         </h2>
       </FadeIn>
 

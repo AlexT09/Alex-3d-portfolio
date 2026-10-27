@@ -2,44 +2,35 @@ import { motion, useScroll, useTransform, type MotionValue } from 'framer-motion
 import { useRef } from 'react';
 import FadeIn from '../components/FadeIn';
 import { LiveProjectButton } from '../components/Buttons';
-
-const img = (id: string) =>
-  `https://images.higgs.ai/?default=1&output=webp&url=https%3A%2F%2Fd8j0ntlcm91z4.cloudfront.net%2Fuser_38xzZboKViGWJOttwIXH07lWA1P%2F${id}.png&w=1280&q=85`;
+import { asset } from '../config';
 
 interface Project {
   name: string;
   category: string;
+  summary: string;
+  href: string;
   col1: [string, string];
   col2: string;
 }
 
 const PROJECTS: Project[] = [
   {
-    name: 'Nextlevel Studio',
-    category: 'Client',
-    col1: [
-      img('hf_20260412_055344_5eff02e0-87a5-41ce-b64f-eb08da8f33db'),
-      img('hf_20260412_055431_11d841fd-8b41-46a5-82e4-b04f2407a7d8'),
-    ],
-    col2: img('hf_20260412_055451_e317bf2d-28d4-48cc-86b0-6f72f25b6327'),
+    name: 'Heart Disease MLOps',
+    category: 'Machine Learning · MLOps',
+    summary:
+      'Predicción de enfermedad cardíaca con 5 modelos comparados (AUC 0,937), API en FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.',
+    href: 'https://github.com/AlexT09/heart-disease-mlops',
+    col1: [asset('projects/heart-1.png'), asset('projects/heart-2.png')],
+    col2: asset('projects/heart-3.png'),
   },
   {
-    name: 'Aura Brand Identity',
-    category: 'Personal',
-    col1: [
-      img('hf_20260412_055654_911201c5-36d9-4bc6-bac7-331adfce159f'),
-      img('hf_20260412_055723_5ceda0b8-d9c2-4665-b2e3-83ba19ba76d1'),
-    ],
-    col2: img('hf_20260412_055753_adc5dcbd-a8e6-49c0-b43a-9b030d835cea'),
-  },
-  {
-    name: 'Solaris Digital',
-    category: 'Client',
-    col1: [
-      img('hf_20260412_055759_963cfb0b-4bd1-4b0f-9d0a-09bd6cf95b2f'),
-      img('hf_20260412_060108_438f781a-9846-4dcc-89ab-c4e6cb830f5b'),
-    ],
-    col2: img('hf_20260412_055818_9d062121-ad7e-46b9-999a-1a6a692ef1ee'),
+    name: 'Proyección de ventas Superstore',
+    category: 'Forecasting · Business Analytics',
+    summary:
+      'App en Dash que proyecta ventas 2018 por categoría y región. El modelo acertó el total anual con +3,4 % de desvío, frente a −16,9 % del método base.',
+    href: 'https://github.com/AlexT09/proyecto_superstorep2',
+    col1: [asset('projects/superstore-1.png'), asset('projects/superstore-2.png')],
+    col2: asset('projects/superstore-3.png'),
   },
 ];
 
@@ -87,34 +78,40 @@ function ProjectCard({
               >
                 {project.name}
               </h3>
+              <p
+                className="text-[#D7E2EA] font-light leading-snug max-w-xl opacity-70 mt-1"
+                style={{ fontSize: 'clamp(0.8rem, 1.2vw, 1.05rem)' }}
+              >
+                {project.summary}
+              </p>
             </div>
           </div>
-          <LiveProjectButton />
+          <LiveProjectButton href={project.href} />
         </div>
 
-        <div className="flex gap-3 sm:gap-4">
-          <div className="flex flex-col gap-3 sm:gap-4" style={{ width: '40%' }}>
+        <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
+          <div className="flex flex-col gap-3 sm:gap-4 w-full sm:w-[40%]">
             <img
               src={project.col1[0]}
-              alt={`${project.name} preview 1`}
+              alt={`${project.name}: gráfica 1`}
               loading="lazy"
-              className={`w-full object-cover ${RADIUS}`}
+              className={`w-full object-contain bg-[#141416] ${RADIUS}`}
               style={{ height: 'clamp(130px, 16vw, 230px)' }}
             />
             <img
               src={project.col1[1]}
-              alt={`${project.name} preview 2`}
+              alt={`${project.name}: gráfica 2`}
               loading="lazy"
-              className={`w-full object-cover ${RADIUS}`}
+              className={`w-full object-contain bg-[#141416] ${RADIUS}`}
               style={{ height: 'clamp(160px, 22vw, 340px)' }}
             />
           </div>
-          <div style={{ width: '60%' }}>
+          <div className="hidden sm:block w-full sm:w-[60%]">
             <img
               src={project.col2}
-              alt={`${project.name} main preview`}
+              alt={`${project.name}: gráfica principal`}
               loading="lazy"
-              className={`w-full h-full object-cover ${RADIUS}`}
+              className={`w-full h-full object-contain bg-[#141416] ${RADIUS}`}
             />
           </div>
         </div>
@@ -141,11 +138,11 @@ export default function ProjectsSection() {
           className="hero-heading font-black uppercase leading-none tracking-tight text-center"
           style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
         >
-          Project
+          Proyectos
         </h2>
       </FadeIn>
 
-      <div ref={containerRef} id="contact" className="mt-16 sm:mt-20 md:mt-28">
+      <div ref={containerRef} className="mt-16 sm:mt-20 md:mt-28">
         {PROJECTS.map((p, i) => (
           <ProjectCard key={p.name} project={p} index={i} total={PROJECTS.length} progress={scrollYProgress} />
         ))}

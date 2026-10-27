@@ -32,7 +32,7 @@ const DECOR = [
 ];
 
 const ABOUT_TEXT =
-  "With more than five years of experience in design, i focus on branding, web design, and user experience, i truly enjoy working with businesses that aim to stand out and present their best image. Let's build something incredible together!";
+  'Soy data analyst y trabajo con Python, R y SQL para limpiar, analizar y modelar datos. Construyo dashboards y visualizaciones que cuentan una historia clara, y aplico business analytics para que cada análisis termine en una decisión con impacto real para el negocio. Hablemos de lo que tus datos pueden hacer por ti.';
 
 export default function AboutSection() {
   return (
@@ -53,7 +53,7 @@ export default function AboutSection() {
               className="hero-heading font-black uppercase leading-none tracking-tight text-center"
               style={{ fontSize: 'clamp(3rem, 12vw, 160px)' }}
             >
-              About me
+              Sobre mí
             </h2>
           </FadeIn>
           <AnimatedText
