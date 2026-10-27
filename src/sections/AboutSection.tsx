@@ -32,7 +32,7 @@ const DECOR = [
 ];
 
 const ABOUT_TEXT =
-  'Soy Alex, analista de datos. Me gusta convertir datos de ventas en dashboards y paneles que se entienden de un vistazo. Limpio y exploro los datos con Python, R y SQL, y los presento en paneles interactivos con Dash y HTML. En Sample Superstore llevé casi 10.000 registros de ventas a un panel con KPIs, estacionalidad y la proyección de ventas para 2018.';
+  'Soy Alex, Data Analyst. Construyo dashboards que muestran de un vistazo cómo van las ventas, los KPIs y las tendencias, y paneles administrativos donde los equipos filtran, comparan y gestionan sus datos sin depender de nadie. Trabajo con Python (pandas, NumPy, Plotly, Dash y Matplotlib), R (tidyverse y ggplot2) y SQL, y uso la data visualization para que cada gráfica responda una pregunta de negocio. Estoy disponible para proyectos freelance: si tienes datos y preguntas, construyamos juntos el panel que necesitas.';
 
 export default function AboutSection() {
   return (
@@ -58,7 +58,7 @@ export default function AboutSection() {
           </FadeIn>
           <AnimatedText
             text={ABOUT_TEXT}
-            className="text-[#D7E2EA] font-medium text-center leading-relaxed max-w-[560px]"
+            className="text-[#D7E2EA] font-medium text-center leading-relaxed max-w-[640px]"
             style={{ fontSize: 'clamp(1rem, 2vw, 1.35rem)' }}
           />
         </div>
