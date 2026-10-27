@@ -8,7 +8,7 @@ Portafolio personal: análisis de datos con Python, R y SQL, dashboards y busine
 - [Heart Disease MLOps](https://github.com/AlexT09/heart-disease-mlops): clasificación, FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.
 - [Proyección de ventas Superstore](https://github.com/AlexT09/proyecto_superstorep2): forecasting por categoría y región con app en Dash.
 
-Las gráficas de las tarjetas (`public/projects/`) se generaron con los datos y resultados de cada repositorio.
+Las gráficas de las tarjetas (`public/projects/`) se generaron con los datos de cada repositorio, y la franja animada (`public/marquee/`) usa capturas del dashboard de Superstore y gráficas de Heart Disease MLOps.
 
 ## Personalizar
 - Contacto (email, LinkedIn, GitHub): `src/config.ts`

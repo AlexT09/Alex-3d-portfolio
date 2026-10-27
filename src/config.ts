@@ -1,7 +1,7 @@
 // Datos personales del portafolio. Edita aquí para cambiar contacto y enlaces.
 export const CONTACT = {
-  email: 'talexteran@gmail.com',
-  linkedin: '', // pega aquí la URL de tu LinkedIn, p. ej. 'https://www.linkedin.com/in/tu-usuario'
+  email: 'talex@uninorte.edu.co',
+  linkedin: 'https://www.linkedin.com/in/alex-teran-5ba6bb313/',
   github: 'https://github.com/AlexT09',
 };
 
