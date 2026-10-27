@@ -32,7 +32,7 @@ const DECOR = [
 ];
 
 const ABOUT_TEXT =
-  'Soy Alex, Data Analyst. Construyo dashboards y paneles administrativos pensados para la toma de decisiones y el impacto real en el negocio: visualizo ventas, KPIs y tendencias, y los organizo para filtrar y comparar de forma sencilla. Manejo Python, R y SQL, y uso la data visualization para que cada gráfica cuente algo útil.';
+  'Soy Alex, Data Analyst. Construyo dashboards y paneles administrativos pensados para la toma de decisiones y el impacto real en el negocio: visualizo ventas, KPIs y tendencias, y los organizo para filtrar y comparar de forma sencilla. Manejo Python, R y SQL.';
 
 export default function AboutSection() {
   return (
