@@ -2,7 +2,7 @@
 
 Portafolio personal: dashboards y paneles de business analytics en Python (Dash) y HTML, con limpieza y EDA en Python, R y SQL.
 
-**Sitio:** https://alext09.github.io/alex-3d-portfolio/
+**Sitio:** https://alext09.github.io/Alex-3d-portfolio/
 
 ## Proyectos destacados
 - [Heart Disease MLOps](https://github.com/AlexT09/heart-disease-mlops): clasificación, FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.
