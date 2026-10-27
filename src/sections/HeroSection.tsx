@@ -1,6 +1,7 @@
 import FadeIn from '../components/FadeIn';
 import Magnet from '../components/Magnet';
 import { ContactButton } from '../components/Buttons';
+import { asset } from '../config';
 
 const NAV_LINKS = [
   { label: 'Sobre mí', href: '#about' },
@@ -8,8 +9,7 @@ const NAV_LINKS = [
   { label: 'Proyectos', href: '#projects' },
   { label: 'Contacto', href: '#contact' },
 ];
-const PORTRAIT =
-  'https://shrug-person-78902957.figma.site/_components/v2/d24c01ad3a56fc65e942a1f501eb73db42d7cf9a/Rectangle_40443.81459862.png';
+const PORTRAIT = asset('portrait.png');
 
 export default function HeroSection() {
   return (
@@ -28,7 +28,7 @@ export default function HeroSection() {
 
       <div className="overflow-hidden">
         <FadeIn delay={0.15} y={40}>
-          <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-[11vw] sm:text-[11.5vw] md:text-[12.5vw] lg:text-[13.5vw] mt-6 sm:mt-4 md:-mt-5">
+          <h1 className="hero-heading font-black uppercase tracking-tight leading-none whitespace-nowrap w-full text-center text-[11vw] sm:text-[11.5vw] md:text-[12.2vw] lg:text-[12.8vw] mt-6 sm:mt-4 md:-mt-5">
             Hola, soy Alex
           </h1>
         </FadeIn>
@@ -48,7 +48,7 @@ export default function HeroSection() {
         </FadeIn>
       </div>
 
-      <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[280px] sm:w-[360px] md:w-[440px] lg:w-[520px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0">
+      <div className="absolute left-1/2 -translate-x-1/2 z-10 w-[220px] sm:w-[280px] md:w-[330px] lg:w-[380px] top-1/2 -translate-y-1/2 sm:top-auto sm:translate-y-0 sm:bottom-0">
         <FadeIn delay={0.6} y={30}>
           <Magnet
             padding={150}
