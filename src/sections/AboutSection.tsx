@@ -32,7 +32,7 @@ const DECOR = [
 ];
 
 const ABOUT_TEXT =
-  'Soy Alex, Data Analyst. Construyo dashboards que muestran de un vistazo cómo van las ventas, los KPIs y las tendencias, y paneles administrativos donde los equipos filtran, comparan y gestionan sus datos sin depender de nadie. Trabajo con Python (pandas, NumPy, Plotly, Dash y Matplotlib), R (tidyverse y ggplot2) y SQL, y uso la data visualization para que cada gráfica responda una pregunta de negocio. Estoy disponible para proyectos freelance: si tienes datos y preguntas, construyamos juntos el panel que necesitas.';
+  'Soy Alex, Data Analyst. Construyo dashboards y paneles administrativos pensados para la toma de decisiones: muestran de un vistazo cómo van las ventas, los KPIs y las tendencias, y permiten filtrar y comparar para saber qué hacer después. Trabajo con Python (pandas, NumPy, Plotly, Dash y Matplotlib), R (tidyverse y ggplot2) y SQL, y uso la data visualization para que cada gráfica responda una pregunta de negocio. Estoy disponible para proyectos freelance: si tienes datos y decisiones por tomar, construyamos juntos el panel que necesitas.';
 
 export default function AboutSection() {
   return (
