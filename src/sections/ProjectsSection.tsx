@@ -32,6 +32,15 @@ const PROJECTS: Project[] = [
     col1: [asset('projects/superstore-1.png'), asset('projects/superstore-2.png')],
     col2: asset('projects/superstore-3.png'),
   },
+  {
+    name: 'Superstore en R: Shiny y bookdown',
+    category: 'R · Shiny · Machine Learning',
+    summary:
+      'El mismo forecasting rehecho en R: 7 modelos entrenados con validación cruzada temporal, app Shiny con resumen ejecutivo, EDA interactivo, entrenamiento en vivo y predicción, más un libro en bookdown.',
+    href: 'https://github.com/AlexT09/rbook',
+    col1: [asset('projects/rbook-1.png'), asset('projects/rbook-2.png')],
+    col2: asset('projects/rbook-3.png'),
+  },
 ];
 
 const RADIUS = 'rounded-[40px] sm:rounded-[50px] md:rounded-[60px]';
