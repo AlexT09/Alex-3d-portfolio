@@ -32,7 +32,7 @@ const DECOR = [
 ];
 
 const ABOUT_TEXT =
-  'Soy data analyst y trabajo con Python, R y SQL para limpiar, analizar y modelar datos. Construyo dashboards y visualizaciones que cuentan una historia clara, y aplico business analytics para que cada análisis termine en una decisión con impacto real para el negocio. Hablemos de lo que tus datos pueden hacer por ti.';
+  'Soy Alex, analista de datos. Me gusta convertir datos de ventas en dashboards y paneles que se entienden de un vistazo. Limpio y exploro los datos con Python, R y SQL, y los presento en paneles interactivos con Dash y HTML. En Sample Superstore llevé casi 10.000 registros de ventas a un panel con KPIs, estacionalidad y la proyección de ventas para 2018.';
 
 export default function AboutSection() {
   return (

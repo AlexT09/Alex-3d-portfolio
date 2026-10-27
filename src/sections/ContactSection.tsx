@@ -49,7 +49,7 @@ export default function ContactSection() {
           </a>
         ))}
       </FadeIn>
-      <p className="text-[#D7E2EA]/40 text-sm font-light mt-6">© {new Date().getFullYear()} Alex · Data Analyst</p>
+      <p className="text-[#D7E2EA]/40 text-sm font-light mt-6">© {new Date().getFullYear()} Alex · Analista de datos</p>
     </section>
   );
 }

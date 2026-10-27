@@ -1,6 +1,6 @@
-# Alex — Data Analyst · Portafolio
+# Alex — Analista de datos · Portafolio
 
-Portafolio personal: análisis de datos con Python, R y SQL, dashboards y business analytics con impacto real para el negocio.
+Portafolio personal: dashboards y paneles de business analytics en Python (Dash) y HTML, con limpieza y EDA en Python, R y SQL.
 
 **Sitio:** https://alext09.github.io/alex-3d-portfolio/
 

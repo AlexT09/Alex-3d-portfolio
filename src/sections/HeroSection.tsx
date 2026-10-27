@@ -40,7 +40,7 @@ export default function HeroSection() {
             className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
           >
-            data analyst que convierte datos en decisiones con impacto real para el negocio
+            analista de datos que crea dashboards y paneles de business analytics para decidir mejor
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>
@@ -56,7 +56,7 @@ export default function HeroSection() {
             activeTransition="transform 0.3s ease-out"
             inactiveTransition="transform 0.6s ease-in-out"
           >
-            <img src={PORTRAIT} alt="Alex, data analyst" className="w-full h-auto block select-none" draggable={false} />
+            <img src={PORTRAIT} alt="Alex, analista de datos" className="w-full h-auto block select-none" draggable={false} />
           </Magnet>
         </FadeIn>
       </div>

@@ -2,29 +2,24 @@ import FadeIn from '../components/FadeIn';
 
 const SERVICES = [
   {
-    name: 'Análisis con Python',
+    name: 'Dashboards de ventas y KPIs',
     description:
-      'Limpieza, transformación y análisis exploratorio con pandas y NumPy, y modelos predictivos con scikit-learn, desde el dato crudo hasta resultados reproducibles.',
+      'Paneles interactivos en Python (Dash y Plotly) y HTML para seguir ventas, ganancias, categorías y regiones, como el panel de Sample Superstore.',
   },
   {
-    name: 'Estadística con R',
+    name: 'Paneles de business analytics',
     description:
-      'Análisis estadístico, pruebas de hipótesis y reportes reproducibles en R para entender qué factores explican realmente los resultados.',
+      'Filtros, comparaciones y proyecciones en un solo lugar para responder preguntas de negocio: qué se vende, dónde, cuándo y cuánto se venderá.',
   },
   {
-    name: 'SQL y modelado de datos',
+    name: 'Limpieza y EDA',
     description:
-      'Consultas, limpieza y estructuración de datos en SQL para construir tablas confiables que alimenten reportes y modelos.',
+      'Preparo y exploro los datos con Python, R y SQL: faltantes, duplicados, atípicos, estacionalidad y tendencias, antes de sacar cualquier conclusión.',
   },
   {
-    name: 'Dashboards y visualización',
+    name: 'Reportes ejecutivos',
     description:
-      'Dashboards interactivos y visualizaciones claras en Power BI, Excel, Dash y Python que muestran de un vistazo lo que importa.',
-  },
-  {
-    name: 'Business Analytics',
-    description:
-      'Traduzco el análisis en recomendaciones accionables: proyecciones, KPIs y hallazgos con impacto medible en ventas, costos y decisiones.',
+      'Resumo los hallazgos en recomendaciones claras para decidir, por ejemplo cómo planear inventario según la proyección de ventas por región.',
   },
 ];
 
@@ -56,7 +51,7 @@ export default function ServicesSection() {
               color: '#0C0C0C',
             }}
           >
-            <span className="font-black leading-none shrink-0" style={{ fontSize: 'clamp(3rem, 10vw, 140px)' }}>
+            <span className="font-black leading-none shrink-0 w-[1.45em]" style={{ fontSize: 'clamp(3rem, 10vw, 140px)' }}>
               {String(i + 1).padStart(2, '0')}
             </span>
             <div className="flex flex-col gap-2 sm:gap-3">
