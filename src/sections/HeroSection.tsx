@@ -40,7 +40,7 @@ export default function HeroSection() {
             className="text-[#D7E2EA] font-light uppercase tracking-wide leading-snug max-w-[160px] sm:max-w-[220px] md:max-w-[260px]"
             style={{ fontSize: 'clamp(0.75rem, 1.4vw, 1.5rem)' }}
           >
-            analista de datos que crea dashboards y paneles de business analytics para decidir mejor
+            data analyst que construye dashboards y paneles de business analytics para la toma de decisiones
           </p>
         </FadeIn>
         <FadeIn delay={0.5} y={20}>
