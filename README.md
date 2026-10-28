@@ -6,7 +6,7 @@ Portafolio personal: dashboards y paneles de business analytics en Python (Dash)
 
 ## Proyectos destacados
 - [Heart Disease MLOps](https://github.com/AlexT09/heart-disease-mlops): clasificación, FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.
-- [Proyección de ventas Superstore](https://github.com/AlexT09/proyecto_superstorep2): forecasting por categoría y región con app en Dash.
+- [Proyección de ventas Superstore](https://github.com/AlexT09/proyecto_superstorep2): forecasting por categoría y región con panel de control en Dash y [libro en Jupyter Book](https://alext09.github.io/superstore-jupyterbook/).
 - [Superstore en R: Shiny y bookdown](https://github.com/AlexT09/rbook): el mismo forecasting en R, con app Shiny (shinydashboard) y [libro en bookdown](https://alext09.github.io/rbook/).
 
 Las gráficas de las tarjetas (`public/projects/`) se generaron con los datos de cada repositorio, y la franja animada (`public/marquee/`) usa capturas del dashboard de Superstore y gráficas de Heart Disease MLOps.

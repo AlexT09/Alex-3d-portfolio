@@ -27,7 +27,7 @@ const PROJECTS: Project[] = [
     name: 'Proyección de ventas Superstore',
     category: 'Forecasting · Business Analytics',
     summary:
-      'App en Dash que proyecta ventas 2018 por categoría y región. El modelo acertó el total anual con +3,4 % de desvío, frente a −16,9 % del método base.',
+      'Panel de control en Dash que proyecta ventas 2018 por categoría y región, con predicción en vivo y asistente IA. El modelo acertó el total anual con +3,4 % de desvío, frente a −16,9 % del método base.',
     href: 'https://github.com/AlexT09/proyecto_superstorep2',
     col1: [asset('projects/superstore-1.png'), asset('projects/superstore-2.png')],
     col2: asset('projects/superstore-3.png'),
