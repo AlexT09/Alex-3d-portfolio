@@ -2,19 +2,19 @@ import FadeIn from '../components/FadeIn';
 
 const SERVICES = [
   {
+    name: 'ETL: extracción y limpieza de datos',
+    description:
+      'Extraigo, limpio y preparo los datos con Python, R y SQL: faltantes, duplicados, atípicos y formatos, para dejarlos listos para el análisis.',
+  },
+  {
+    name: 'EDA: análisis exploratorio',
+    description:
+      'Exploro los datos para encontrar estacionalidad, tendencias y patrones antes de sacar cualquier conclusión.',
+  },
+  {
     name: 'Dashboards de ventas y KPIs',
     description:
-      'Paneles interactivos en Python (Dash y Plotly) y HTML para seguir ventas, ganancias, categorías y regiones, como el panel de Sample Superstore.',
-  },
-  {
-    name: 'Paneles de business analytics',
-    description:
-      'Filtros, comparaciones y proyecciones en un solo lugar para responder preguntas de negocio: qué se vende, dónde, cuándo y cuánto se venderá.',
-  },
-  {
-    name: 'Limpieza y EDA',
-    description:
-      'Preparo y exploro los datos con Python, R y SQL: faltantes, duplicados, atípicos, estacionalidad y tendencias, antes de sacar cualquier conclusión.',
+      'Paneles interactivos en Python (Dash y Plotly) y HTML para seguir ventas, ganancias, categorías y regiones.',
   },
   {
     name: 'Reportes ejecutivos',
