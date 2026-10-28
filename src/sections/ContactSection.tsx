@@ -13,7 +13,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="relative px-5 sm:px-8 md:px-10 py-24 sm:py-28 md:py-36 flex flex-col items-center gap-10 sm:gap-12 text-center"
+      className="relative z-20 px-5 sm:px-8 md:px-10 py-24 sm:py-28 md:py-36 flex flex-col items-center gap-10 sm:gap-12 text-center"
       style={{ background: '#0C0C0C' }}
     >
       <FadeIn y={40}>
