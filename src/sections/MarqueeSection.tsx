@@ -1,13 +1,16 @@
 import { useEffect, useRef, useState } from 'react';
 import { asset } from '../config';
 
-// Capturas reales de los proyectos: dashboard de Superstore y gráficas de Heart Disease MLOps.
+// Capturas reales de los proyectos: dashboards de PS Gaming (Dash y Shiny) y Superstore,
+// y gráficas de Heart Disease MLOps.
 const m = (f: string) => asset(`marquee/${f}`);
 
 const ROW_1_BASE = [
+  m('gaming-01.webp'),
   m('superstore-01.webp'),
   m('superstore-02.webp'),
   m('heart-01.webp'),
+  m('gaming-02.webp'),
   m('superstore-03.webp'),
   m('superstore-04.webp'),
   m('superstore-05.webp'),
@@ -15,9 +18,11 @@ const ROW_1_BASE = [
   m('superstore-06.webp'),
 ];
 const ROW_2_BASE = [
+  m('gaming-03.webp'),
   m('superstore-07.webp'),
   m('superstore-08.webp'),
   m('heart-03.webp'),
+  m('gaming-04.webp'),
   m('superstore-09.webp'),
   m('superstore-10.webp'),
   m('superstore-11.webp'),

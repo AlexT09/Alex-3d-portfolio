@@ -15,13 +15,22 @@ interface Project {
 
 const PROJECTS: Project[] = [
   {
-    name: 'Heart Disease MLOps',
-    category: 'Machine Learning · MLOps',
+    name: 'PS Gaming Analytics en Dash',
+    category: 'Data Visualization · Python · Dash',
     summary:
-      'Predicción de enfermedad cardíaca con 5 modelos comparados (AUC 0,937), API en FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.',
-    href: 'https://github.com/AlexT09/heart-disease-mlops',
-    col1: [asset('projects/heart-1.png'), asset('projects/heart-2.png')],
-    col2: asset('projects/heart-3.png'),
+      'ETL de 19,5 M de registros de PlayStation Store y dashboard de 11 páginas sobre catálogo, precios en 5 monedas, jugadores de 70 países, popularidad y trofeos, con interpretación automática bajo cada gráfico.',
+    href: 'https://github.com/AlexT09/DashAppGamming',
+    col1: [asset('projects/gaming-1.png'), asset('projects/gaming-2.png')],
+    col2: asset('projects/gaming-3.png'),
+  },
+  {
+    name: 'PS Gaming Analytics en R: Shiny y bookdown',
+    category: 'R · Shiny · bookdown',
+    summary:
+      'El mismo análisis rehecho en R: app Shiny con plotly y filtros globales, idéntica a la versión Dash, más un informe en bookdown con ETL, EDA en ggplot2 y conclusiones por objetivo.',
+    href: 'https://github.com/AlexT09/ShinyAppGamming',
+    col1: [asset('projects/gaming-r-1.png'), asset('projects/gaming-r-2.png')],
+    col2: asset('projects/gaming-r-3.png'),
   },
   {
     name: 'Proyección de ventas Superstore',
@@ -40,6 +49,15 @@ const PROJECTS: Project[] = [
     href: 'https://github.com/AlexT09/rbook',
     col1: [asset('projects/rbook-1.png'), asset('projects/rbook-2.png')],
     col2: asset('projects/rbook-3.png'),
+  },
+  {
+    name: 'Heart Disease MLOps',
+    category: 'Machine Learning · MLOps',
+    summary:
+      'Predicción de enfermedad cardíaca con 5 modelos comparados (AUC 0,937), API en FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.',
+    href: 'https://github.com/AlexT09/heart-disease-mlops',
+    col1: [asset('projects/heart-1.png'), asset('projects/heart-2.png')],
+    col2: asset('projects/heart-3.png'),
   },
 ];
 
