@@ -77,9 +77,15 @@ function ProjectCard({
   const targetScale = 1 - (total - 1 - index) * 0.03;
   const rangeStart = index / total;
   const scale = useTransform(progress, [rangeStart, 1], [1, targetScale]);
+  // La última tarjeta no necesita reservar 85vh para el apilado: así Contacto aparece justo después.
+  // Su relleno inferior compensa el desplazamiento visual (top) para que no quede tapada.
+  const isLast = index === total - 1;
 
   return (
-    <div className="min-h-[85vh] flex items-start justify-center sticky top-24 md:top-32">
+    <div
+      className={`${isLast ? '' : 'min-h-[85vh]'} flex items-start justify-center sticky top-24 md:top-32`}
+      style={isLast ? { paddingBottom: `${index * 28}px` } : undefined}
+    >
       <motion.div
         className={`relative w-full max-w-6xl border-2 border-[#D7E2EA] p-4 sm:p-6 md:p-8 origin-top ${RADIUS}`}
         style={{ background: '#0C0C0C', scale, top: `${index * 28}px` }}
@@ -157,7 +163,7 @@ export default function ProjectsSection() {
   return (
     <section
       id="projects"
-      className="relative z-10 -mt-10 sm:-mt-12 md:-mt-14 rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 pt-20 sm:pt-24 md:pt-32 pb-20"
+      className="relative z-10 -mt-10 sm:-mt-12 md:-mt-14 rounded-t-[40px] sm:rounded-t-[50px] md:rounded-t-[60px] px-5 sm:px-8 md:px-10 pt-20 sm:pt-24 md:pt-32 pb-0"
       style={{ background: '#0C0C0C' }}
     >
       <FadeIn y={40}>
