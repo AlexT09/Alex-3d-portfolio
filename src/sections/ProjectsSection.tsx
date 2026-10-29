@@ -39,7 +39,7 @@ const PROJECTS: Project[] = [
       'Panel en Dash que proyecta ventas 2018 por categoría y región (total anual con +3,4 % de desvío, frente a −16,9 % del método base) y simula las recomendaciones del EDA: limitar los descuentos al 20 % mejora la ganancia incluso si se pierden todos esos pedidos.',
     href: 'https://github.com/AlexT09/SuperstorePython',
     col1: [asset('projects/superstore-1.png'), asset('projects/superstore-2.png')],
-    col2: asset('projects/superstore-3.png'),
+    col2: asset('projects/superstore-4.png'),
   },
   {
     name: 'Superstore en R: Shiny y bookdown',
@@ -48,7 +48,7 @@ const PROJECTS: Project[] = [
       'El mismo proyecto rehecho en R: 7 modelos con validación cruzada temporal, app Shiny con resumen ejecutivo, EDA interactivo, entrenamiento en vivo, predicción y simulador de recomendaciones, más un libro en bookdown.',
     href: 'https://github.com/AlexT09/SuperstoreR',
     col1: [asset('projects/rbook-1.png'), asset('projects/rbook-2.png')],
-    col2: asset('projects/rbook-3.png'),
+    col2: asset('projects/rbook-4.png'),
   },
   {
     name: 'Heart Disease MLOps',
