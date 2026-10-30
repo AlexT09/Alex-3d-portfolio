@@ -15,7 +15,7 @@ const ROW_1_BASE = [
   m('superstore-04.webp'),
   m('superstore-05.webp'),
   m('heart-02.webp'),
-  m('superstore-14.webp'),
+  m('superstore-06.webp'),
 ];
 const ROW_2_BASE = [
   m('gaming-03.webp'),
@@ -23,10 +23,10 @@ const ROW_2_BASE = [
   m('superstore-08.webp'),
   m('heart-03.webp'),
   m('gaming-04.webp'),
-  m('superstore-15.webp'),
+  m('superstore-09.webp'),
   m('superstore-10.webp'),
   m('superstore-11.webp'),
-  m('superstore-16.webp'),
+  m('superstore-12.webp'),
   m('superstore-13.webp'),
 ];
 

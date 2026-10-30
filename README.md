@@ -7,8 +7,8 @@ Portafolio personal: dashboards y paneles de business analytics en Python (Dash)
 ## Proyectos destacados
 - [PS Gaming Analytics en Dash](https://github.com/AlexT09/DashAppGamming): ETL de 19,5 M de registros de PlayStation Store y dashboard de 11 páginas (catálogo, precios en 5 monedas, jugadores, popularidad y trofeos).
 - [PS Gaming Analytics en R: Shiny y bookdown](https://github.com/AlexT09/ShinyAppGamming): el mismo dashboard en Shiny y un informe en bookdown con ETL, EDA y conclusiones.
-- [Proyección de ventas Superstore](https://github.com/AlexT09/SuperstorePython): forecasting por categoría y región con panel de control en Dash, simulador de recomendaciones (tope de descuento, temporada alta) y [libro en Jupyter Book](https://alext09.github.io/SuperstorePython/).
-- [Superstore en R: Shiny y bookdown](https://github.com/AlexT09/SuperstoreR): el mismo proyecto en R, con app Shiny (shinydashboard), simulador de recomendaciones y [libro en bookdown](https://alext09.github.io/SuperstoreR/).
+- [Proyección de ventas Superstore](https://github.com/AlexT09/SuperstorePython): forecasting por categoría y región con panel de control en Dash, recomendaciones para el negocio a partir del EDA y [libro en Jupyter Book](https://alext09.github.io/SuperstorePython/).
+- [Superstore en R: Shiny y bookdown](https://github.com/AlexT09/SuperstoreR): el mismo proyecto en R, con app Shiny (shinydashboard) y [libro en bookdown](https://alext09.github.io/SuperstoreR/).
 - [Heart Disease MLOps](https://github.com/AlexT09/heart-disease-mlops): clasificación, FastAPI, Docker, Kubernetes, CI/CD y monitoreo de deriva.
 
 Las gráficas de las tarjetas (`public/projects/`) se generaron con los datos de cada repositorio, y la franja animada (`public/marquee/`) usa capturas de los dashboards de PS Gaming y Superstore y gráficas de Heart Disease MLOps.

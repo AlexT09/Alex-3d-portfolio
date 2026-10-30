@@ -36,19 +36,19 @@ const PROJECTS: Project[] = [
     name: 'Proyección de ventas Superstore',
     category: 'Forecasting · Business Analytics',
     summary:
-      'Panel en Dash que proyecta ventas 2018 por categoría y región (total anual con +3,4 % de desvío, frente a −16,9 % del método base) y simula las recomendaciones del EDA: limitar los descuentos al 20 % mejora la ganancia incluso si se pierden todos esos pedidos.',
+      'Panel de control en Dash que proyecta ventas 2018 por categoría y región, con predicción en vivo, recomendaciones para el negocio a partir del EDA y asistente IA. El modelo acertó el total anual con +3,4 % de desvío, frente a −16,9 % del método base.',
     href: 'https://github.com/AlexT09/SuperstorePython',
     col1: [asset('projects/superstore-1.png'), asset('projects/superstore-2.png')],
-    col2: asset('projects/superstore-4.png'),
+    col2: asset('projects/superstore-3.png'),
   },
   {
     name: 'Superstore en R: Shiny y bookdown',
     category: 'R · Shiny · Machine Learning',
     summary:
-      'El mismo proyecto rehecho en R: 7 modelos con validación cruzada temporal, app Shiny con resumen ejecutivo, EDA interactivo, entrenamiento en vivo, predicción y simulador de recomendaciones, más un libro en bookdown.',
+      'El mismo forecasting rehecho en R: 7 modelos entrenados con validación cruzada temporal, app Shiny con resumen ejecutivo, EDA interactivo, entrenamiento en vivo y predicción, más un libro en bookdown.',
     href: 'https://github.com/AlexT09/SuperstoreR',
     col1: [asset('projects/rbook-1.png'), asset('projects/rbook-2.png')],
-    col2: asset('projects/rbook-4.png'),
+    col2: asset('projects/rbook-3.png'),
   },
   {
     name: 'Heart Disease MLOps',
